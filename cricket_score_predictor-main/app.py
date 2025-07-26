@@ -50,4 +50,4 @@ def index():
     return render_template('index.html', teams=sorted(teams), cities=sorted(cities), prediction=prediction)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
